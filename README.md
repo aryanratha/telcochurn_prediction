@@ -26,11 +26,14 @@ Telco Customer Churn — 7,043 customers, 21 features (demographics, account inf
 6. Built a Power BI dashboard combining the EDA visuals, model output, and filters for department-level exploration.
 
 # Key Findings:
-- Contract type: _____
-- Tenure: _____
-- Monthly charges: _____
-- Top 3 model features: _____
-- Business Recommendations
+- Contract type: Month-to-month contracts drive the highest churn rate at 43%, compared to 1-year (11%) and 2-year (3%) contracts.
+- Tenure: The lowest tenure bin (0 months) contains the highest absolute volume of churned customers. Churn risk steadily decreases as customer tenure increases.
+- Monthly charges: The average monthly charge for the customer base is $64.76. Both TotalCharges and MonthlyCharges rank within the top 5 predictive features for churn.
+- Top 3 model features: According to the Random Forest model, the strongest churn drivers are 1. tenure (0.18), 2. TotalCharges (0.13), and 3. Contract_Two year (0.11).
+  
+# Business Recommendations:
+- **Incentivize Contract Upgrades**: Month-to-month users have a 43% churn rate. Offer targeted discounts to transition them to 1-year or 2-year plans.
+- **Investigate Fiber Optic Services**: With a 42% churn rate, fiber optic requires an immediate review of network reliability and pricing satisfaction.
 
 ## Model Performance :
 | Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
