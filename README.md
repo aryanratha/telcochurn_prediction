@@ -41,6 +41,9 @@ Telco Customer Churn — 7,043 customers, 21 features (demographics, account inf
 | Logistic Regression | | | | | |
 | Random Forest | | | | | |
 
+## Dashboard Preview :
+![Dashboard Preview](images/churn.png)
+
 ## 📂 Repository Structure:
 ```
 │
